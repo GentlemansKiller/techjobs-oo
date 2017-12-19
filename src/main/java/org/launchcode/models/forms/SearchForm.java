@@ -16,16 +16,15 @@ public class SearchForm {
     // The search string
     private String keyword;
 
+    public JobFieldType[] getFields() {
+        return fields;
+    }
     public JobFieldType getSearchField() {
         return searchField;
     }
 
     public void setSearchField(JobFieldType searchField) {
         this.searchField = searchField;
-    }
-
-    public JobFieldType[] getFields() {
-        return fields;
     }
 
     public String getKeyword() {
